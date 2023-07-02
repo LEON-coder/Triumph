@@ -81,6 +81,7 @@ nav {
 	align-items    : center;
 	margin-top     : 62px;
 	text-decoration: none;
+	cursor : pointer;
 }
 
 .text {
@@ -325,6 +326,7 @@ nav {
 .product-catalog__selectors-item:last-child {
 	margin-right: 0;
 	width       : 154px;
+	text-align  : center;
 }
 
 .product-catalog__selectors-link {
