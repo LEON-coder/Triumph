@@ -302,6 +302,7 @@ nav {
 .product-catalog__block-selectors {
 	display       : flex;
 	flex-direction: column;
+	align-items   : center;
 }
 
 .product-catalog__selectors-list {
@@ -464,11 +465,10 @@ nav {
 }
 
 .our-advantages__vector-top {
-	position : absolute;
-	top      : -95px;
-	left     : 0px;
-	width    : 100%;
-	transform: rotate(1deg);
+	position: absolute;
+	top     : -95px;
+	left    : 0px;
+	width   : 100%;
 }
 
 .our-advantages__text {
@@ -515,4 +515,80 @@ nav {
 
 .our-advantages__icon:last-child {
 	margin-top: 168px;
+}
+
+
+.contacts {
+	display       : flex;
+	width         : 100%;
+	flex-direction: column;
+}
+
+.contacts__block {
+	display        : flex;
+	margin-top     : 77px;
+	justify-content: space-between;
+}
+
+.contacts__block_header {
+	font-family   : 'Montserrat';
+	font-size     : 42px;
+	font-weight   : 700;
+	line-height   : 51px;
+	letter-spacing: 0em;
+	color         : #FFFFFF;
+	padding-top   : 129px;
+	text-align    : center;
+}
+
+.contacts__block-address {
+	width: 586px;
+}
+
+.address {
+	font-family   : 'Montserrat';
+	font-size     : 24px;
+	font-weight   : 500;
+	line-height   : 29px;
+	letter-spacing: 0em;
+	text-align    : left;
+	color         : #FFFFFF;
+	display       : flex;
+	flex-direction: column;
+	padding-left  : 34px;
+	width         : 586px;
+}
+
+span {
+	display: flex;
+}
+
+.tel {
+	font-family    : 'Montserrat';
+	font-size      : 24px;
+	font-weight    : 700;
+	line-height    : 29px;
+	letter-spacing : 0em;
+	text-align     : left;
+	color          : #FFFFFF;
+	margin-left    : 10px;
+	text-decoration: none;
+	cursor         : pointer;
+}
+
+.contacts__map {
+	margin-right: 44px;
+}
+
+footer {
+	width      : 100%;
+	height     : 215px;
+	background : #000000;
+	margin-top : 174px;
+	display    : flex;
+	align-items: center;
+}
+
+.footer-logo {
+	padding-left: 34px;
 }
