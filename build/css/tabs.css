@@ -1,31 +1,41 @@
 .tabs {
-	width  : 100%;
-	padding: 0px;
-	margin : 0 auto;
+	width          : 1108px;
+	height         : auto;
+	display        : flex;
+	flex-wrap      : wrap;
+	justify-content: center;
+	margin-top     : 67px;
 }
 
-.tabs>input {
+input[type='radio'] {
 	display: none;
+}
+
+.radio-buttons {
+	display: flex;
 }
 
 .tabs>div {
 	display: none;
-	padding: 12px;
 }
 
+
 .tabs>label {
-	display   : inline-block;
-	padding   : 7px;
-	margin    : 0 -5px -1px 0;
-	text-align: center;
-	color     : #FFFFFF;
-	cursor    : pointer;
+	display       : inline-block;
+	margin-right  : 39px;
+	text-align    : center;
+	cursor        : pointer;
+	width         : 131px;
+	font-family   : 'Montserrat';
+	font-size     : 20px;
+	font-weight   : 500;
+	line-height   : 37px;
+	letter-spacing: 0em;
+	color         : #FFFFFF;
 }
 
 .tabs>input:checked+label {
-	color         : #FFFFFF;
-	font-family   : 'Montserrat';
-	font-size     : 20px;
+	font-size     : 30px;
 	font-weight   : 700;
 	line-height   : 37px;
 	letter-spacing: 0em;
@@ -41,9 +51,31 @@
 #tab_7:checked~#txt_7,
 #tab_8:checked~#txt_8,
 #tab_9:checked~#txt_9 {
-	display: block;
+	display   : block;
+	margin-top: 132px;
 }
 
+.tabs>#tab_7,
+.tabs>#tab_8,
+.tabs>#tab_9,
+.tabs>#tab_10,
+.tabs>#tab_11,
+.tabs>#tab_12 {
+	margin-top: 55px;
+}
+
+#tab_12 {
+	height: auto;
+}
+
+#tab_6,
+#tab_12 {
+	margin-right: 0;
+}
+
+.margin-top--modify {
+	margin-top: 55px;
+}
 
 .awnings-tab {
 	width: 1377px;

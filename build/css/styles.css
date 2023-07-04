@@ -23,18 +23,27 @@ header {
 	background-repeat: no-repeat;
 	background-size  : cover;
 	position         : relative;
+	display          : flex;
+	flex-direction   : column;
+	align-items      : center;
 }
 
 nav {
-	display    : flex;
-	padding-top: 17px;
+	display        : flex;
+	padding-top    : 17px;
+	justify-content: space-between;
+	width          : 100%;
 }
 
 .header-list {
-	display    : flex;
-	list-style : none;
-	align-items: center;
-	margin-left: 33px;
+	display        : flex;
+	list-style     : none;
+	align-items    : center;
+	padding-left   : 40px;
+	justify-content: space-between;
+	width          : 100%;
+	box-sizing     : border-box;
+	padding-right  : 27px;
 }
 
 .header-item {
@@ -81,7 +90,7 @@ nav {
 	align-items    : center;
 	margin-top     : 62px;
 	text-decoration: none;
-	cursor : pointer;
+
 }
 
 .text {
@@ -91,9 +100,12 @@ nav {
 
 
 .header__main-block {
-	display       : flex;
-	flex-direction: column;
-	margin-left   : 40px;
+	display        : flex;
+	flex-direction : column;
+	padding-left   : 40px;
+	justify-content: space-between;
+	width          : 100%;
+	box-sizing     : border-box;
 }
 
 .header__main-block_header {
