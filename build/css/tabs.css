@@ -50,7 +50,10 @@ input[type='radio'] {
 #tab_6:checked~#txt_6,
 #tab_7:checked~#txt_7,
 #tab_8:checked~#txt_8,
-#tab_9:checked~#txt_9 {
+#tab_9:checked~#txt_9,
+#tab_10:checked~#txt_10,
+#tab_11:checked~#txt_11,
+#tab_12:checked~#txt_12 {
 	display   : block;
 	margin-top: 132px;
 }
@@ -109,5 +112,32 @@ input[type='radio'] {
 
 .railings-margin-right {
 	margin-left : 0;
+	margin-right: auto;
+}
+
+.entrance_group-margin-right {
+	margin-right: 69px;
+}
+
+.fences-margin-right {
+	margin-right: 0;
+}
+
+.fences-margin-right-last {
+	margin-left : 52px;
+	margin-right: auto;
+}
+
+.urns-margin-right {
+	margin-right: 0;
+}
+
+
+.urns-margin-right-last {
+	margin-right: auto;
+	margin-left : 52px;
+}
+
+.entrance_group-margin-right-last {
 	margin-right: auto;
 }
